@@ -14,11 +14,11 @@ class DetalleVehiculo extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            // Imagen del vehículo
+            // Imagen 
             ClipRRect(
               borderRadius: BorderRadius.circular(20.0),
               child: Image.asset(
-                "assets/auto.png", // Reemplazar con imagen real
+                "assets/auto.png", 
                 height: 250,
                 fit: BoxFit.cover,
               ),
