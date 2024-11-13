@@ -85,7 +85,8 @@ class _MenuPrincipalState extends State<MenuPrincipal> {
       appBar: AppBar(
         title: Text("Menú Principal"),
         backgroundColor:
-            Color(0xFF006F9E), // Color azul de la bandera de Colombia
+            Color(0xFF006F9E), 
+        
       ),
       drawer: Drawer(
         child: ListView(
